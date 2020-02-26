@@ -1,0 +1,25 @@
+v8: es el nucle de nodejs e interpreta funciones de javascript
+snippeds: fragmentos
+Path Intellisense: sirve para autocompletar nodejs
+*podemos agregar nuevas funciones, modificando v8, y ahí podemos ver las
+funciones del motor de nodejs
+
+*****************************video13cliente y servidor**********************
+-podemos usar liberias en el servidor así como en el navegador
+****************video14 javascript en el servidor*****************************
+*archivos:
+	-crear, modificar, eliminar
+*consultar base datos
+*internet
+	-comunicacipon a traves de internet
+*solicitud de respues
+	-recibir solicitud y hacer una respuesta
+*hilos
+	-manejar diferentes proceso
+	
+*hardware
+	-manipuación de hardware
+*manipular recursos
+	-manipular los recursos del servidor
+*software
+	-debe saber comunicarse con otros softwares

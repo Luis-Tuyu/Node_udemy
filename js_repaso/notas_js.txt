@@ -1,0 +1,17 @@
+SECCIÓN 5, REPASO DE JS
+
+****17_expresiones
+Expresión: cual quier cosa que cree un vlaor primitivo
+
+**18_tipos de datos
+Object: padre de todo
+String: cadenas, 
+NUmber: 
+Boolean: true or false
+--Colecciones
+*Arrays: colecciones que se almacena de forma secuencial
+*Set
+*Maps
+-SImbols
+	*undefine: no ha sido definido o creado
+	*null: ausencia de un valor
