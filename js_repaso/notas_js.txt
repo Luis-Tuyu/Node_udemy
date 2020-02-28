@@ -15,3 +15,49 @@ Boolean: true or false
 -SImbols
 	*undefine: no ha sido definido o creado
 	*null: ausencia de un valor
+
+
+**v23 Colecciones
+Arrays->puedes incluir funciones dentro de los Arrays
+set->se utilizan para agregar diccionarios
+	*no permite repeticion
+	*son conjuntos
+	*Definirlo: new Set()
+	*Agregar: nombre.add()
+Map->permite diccionarios, un key and value
+	*Definirlo: new Map()
+	*Agregar: nombre.set("key", "valor");
+
+
+**V24_bucles
+for->recorre los arrays, así como los arrays con objetos
+	*for in->reccorer los JSON
+While-> Se ejecuta hasta que no se cumpla la condición
+do While->Se hace al menos una vez
+
+
+**v25_Funciones
+Function->palabra reservada
+N1->Cuando no declaramos un retorno, js retorn undefined
+Funcion flecha->Ya no agregamos la palabra funcion y los parentesis si solo pasamos un parámetro
+				-usamos =>, para representar funcion
+
+**v26-27_Callbaks
+Def->Es una funcion x que pasa por parámetro a una función Y
+-Usar el callback lo menos posible
+-El primer elemento que se le pasa a un callback 
+	es un error
+
+**v28_callback hell
+	-Uso excesivo
+	-cuando agregas varias callbaks y se identa a la derecha
+	-find, devuelve el valor del elemento, en caso de JSON, el objeto
+	-son callbacks añidados
+
+v29-30_promesas
+	-Def: Es un objeto que representa la terminación
+		o fracaso eventual de una operación asíncrona
+	-Nt1: es un objeto al cual se adjunta funciones callback
+		,en lugar de pasar callbas a la función
+	-Resolve: Se utiliza en el caso que sea correcto la ejecución
+	-Reject: Se debe ejecutar cuando haya un error y queremos tratarlo
