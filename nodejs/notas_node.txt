@@ -23,3 +23,6 @@ funciones del motor de nodejs
 	-manipular los recursos del servidor
 *software
 	-debe saber comunicarse con otros softwares
+
+
+**v43, Creando nuestro primer servidor web

@@ -61,3 +61,8 @@ v29-30_promesas
 		,en lugar de pasar callbas a la función
 	-Resolve: Se utiliza en el caso que sea correcto la ejecución
 	-Reject: Se debe ejecutar cuando haya un error y queremos tratarlo
+
+**v.43
+-HTTP: protocòlo de transferencia de datos
+-servidor Web: software que se ecarga de brindar la informaciòn.
+-nodejs crear su propio servidor
