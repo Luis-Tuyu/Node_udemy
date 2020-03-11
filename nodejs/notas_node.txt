@@ -26,3 +26,10 @@ funciones del motor de nodejs
 
 
 **v43, Creando nuestro primer servidor web
+-Creamos un servidor que tendrá una petición y una respuesta
+
+**V44 conocieno el servidor web
+-Vimos como agregar un archivo html a nuestro servidor web
+-Es parecido como se hace con php o con localhost, solo que ese lo hace de
+maner automática.
+-importamos la libreria file system(fs)
