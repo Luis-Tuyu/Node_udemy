@@ -51,3 +51,11 @@ maner automática.
 	-Borramos la carpeta module
 		-npm install
 	
+**v48 Usando rutas en express
+	-Creamos un objeto tipo servidor y de esa manera usamos el get
+	-Introducción a los métodos http
+		*GET
+		*POST
+		*PUT
+		*PATH
+		*DELETE
