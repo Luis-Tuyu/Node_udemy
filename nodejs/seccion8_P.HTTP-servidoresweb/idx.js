@@ -1,12 +1,26 @@
-const http = require ("http");
+const http = require ("http"); //Esto es una libreria
 const fs = require('fs'); //importar la libreria file sistem
-const html = fs.readFileSync('./index.html'); //nuevo
+
+const home = fs.readFileSync('./index.html'); //nuevo
+const about = fs.readFileSync('./about.html');
 
 http.createServer((request, response)=>{
+    const { url } = request; //deestructuramos dede el reques
     
-    response.writeHead(200, {"Content-Type":"text/html"}) //Nuevo
+    if( url == "/")
+    {response.writeHead(200, {"Content-Type":"text/html"}) //Nuevo
+    response.write(home);
 
-    response.write(html);
+    }else if (url == "/about")
+    {response.writeHead(200, {"Content-Type":"text/html"}) //Nuevo
+    response.write(about);
+    }else{
+        response.writeHead(404, {"Content-Type":"text/html"}) //Nuevo
+        response.write('Page not found');
+    }
+
+
+    
     response.end();
 }).listen(8080);
 

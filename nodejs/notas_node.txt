@@ -33,3 +33,10 @@ funciones del motor de nodejs
 -Es parecido como se hace con php o con localhost, solo que ese lo hace de
 maner automática.
 -importamos la libreria file system(fs)
+
+
+**V46 RUTAS
+	-Son lo archivos que pondras en el navegador seguido de tu dominio
+	-podemos controlar esos cambios
+	-readfileSync para seleccionar esa ruta
+	-Es problemático cuando usamos varias rutas
