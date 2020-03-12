@@ -40,3 +40,14 @@ maner automática.
 	-podemos controlar esos cambios
 	-readfileSync para seleccionar esa ruta
 	-Es problemático cuando usamos varias rutas
+
+
+**v47 usando express
+	-inicializar un proecto en node para instalar un modulo de tercero
+	*nom init ->inicializa un proyecto
+	*Instalar la dependencia de produccion
+		-npm install expres
+		-mode module no se debe subir a producción
+	-Borramos la carpeta module
+		-npm install
+	

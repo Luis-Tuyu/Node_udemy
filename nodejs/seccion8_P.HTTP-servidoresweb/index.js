@@ -1,9 +1,6 @@
-const http = require ("http");
-http.createServer((request, response)=>{
+const express = require('express'); //importamos la libreria de express
+const server = express();
 
-    response.write("Hello word");
-    response.end();
-}).listen(8080);
-
-//request = peticion http del cliente hacia el ervidor
-//response = respuesta al clienteg
+server.listen(8080, ()=>{
+    console.log("Server is running on port 8080");
+})
