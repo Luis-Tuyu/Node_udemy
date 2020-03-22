@@ -28,14 +28,15 @@ const AutorDB = [
 
 //funciones antiguas
 function getbook(id, callback) {
-    let book = DBbook.find((lib) => lib.id === id);
+    let book = DBbook.find((lib) => lib.id === id); //retorna el objeto
     if (!book) {
         const error = new Error();
         error.message = "Book not found";
     return callback(error);
     }
-
+    console.log("book: "+book)
     callback(null, book);
+    
     //le agreggo los dos en caso afirmativo
 }
 

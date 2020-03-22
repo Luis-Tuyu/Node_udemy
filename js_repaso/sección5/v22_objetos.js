@@ -9,7 +9,7 @@ const person = {
     //maneras de accedera los objetos dentro de J
 
 console.log(person.getFullName());
-
+console.log(person.name);
 //usar una clase como plantilla
 
 class person_c {

@@ -17,6 +17,8 @@ for (let f of frutas) {
 //for in
 console.log("")
 console.log("for in,, con JSON")
+
+//arreglo de objetos
 let people = [{
         name: "Luis",
         edad: 20
@@ -28,5 +30,7 @@ let people = [{
 ];
 
 for (let p in people) {
-    console.log(people[p]);
+    console.log(people[p].name);
 }
+
+//acceder a un elemento de un arreglo de objetos

@@ -26,7 +26,7 @@ const AutorDB = [
     name: "Leonardo D."
 }];
 
-//funciones antiguas
+//funciones antiguas con las promesass
 function getbook(id) {
     return new Promise((resolve, reject)=>{
         let book = DBbook.find((lib) => lib.id === id);
@@ -63,6 +63,6 @@ function getAutor(id)
 //Parte de las promesas, en la cual usamos
 getbook(1).then(book =>{
     return getAutor(book.id);
-}).then(autor =>{
+}).then(autors =>{
 console.log(autors);
 }).catch(err =>{console.log(err.message);});
