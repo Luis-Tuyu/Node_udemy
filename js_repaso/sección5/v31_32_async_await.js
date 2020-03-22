@@ -58,8 +58,8 @@ async function getAutor(id)
 
     try{
         const book = await getbook(6); //esperará que finalice la promesa
-        const Author = await getAutor(book.autor);
-        console.log(`This book ${book.title} was written by ${Author.name}`);
+       // const Author = getAutor(book.autor);
+        console.log(`This book ${book.title}`);
     }catch(ex)
     {
         console.log(ex.message); //porque los rejects, así lo manejan

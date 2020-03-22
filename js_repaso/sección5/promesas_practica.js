@@ -70,3 +70,26 @@ getAlumn(2).then(alumno=>{
         console.log("Escuela: "+escuela.nombre);
 }).catch(err => console.log(err.message))
 
+
+//investigación de más de las propiedade con los arreglos
+//aprender el push
+
+let nombres = ["Luis", "Daniela", "José"];
+
+function agregar(dato)
+{
+    nombres.push(dato);
+}
+function buscar(arreglo,nombre)
+{   arreglo.forEach((value, index, array) => {
+
+    //console.log(value, index)
+    if (value === nombre)
+    {
+        console.log("Correcto");
+    }else{ console.log("falso");}
+});
+}
+
+agregar("Maria");
+buscar(nombres, "Luis");
