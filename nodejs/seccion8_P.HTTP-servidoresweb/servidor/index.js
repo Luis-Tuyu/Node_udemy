@@ -1,0 +1,9 @@
+const http = require("http");
+
+http.createServer((request, response)=>{
+
+    response.write("Hello world desde node");
+    response.end();
+})
+.listen(8080); //concatennado metodos y creando un servidor
+
