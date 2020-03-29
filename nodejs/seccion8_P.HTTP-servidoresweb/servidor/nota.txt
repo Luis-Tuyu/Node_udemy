@@ -1,0 +1,10 @@
+Cada ves que vamos a instalar un modulo de terceros, debemos 
+inicializar un proyecto de node.js
+
+CREAR UN proyecto
+-npm init ->inicializa un programa de nodejs
+
+Instalar dependencia de produccion
+-npm install express
+
+NOTA!! = no crea las dependencias en el package JSON

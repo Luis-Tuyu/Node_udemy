@@ -1,9 +1,7 @@
-const http = require("http");
+const express = require("express");
+const server = express(); //nos devuelve un objeto tipo express
 
-http.createServer((request, response)=>{
-
-    response.write("Hello world desde node");
-    response.end();
-})
-.listen(8080); //concatennado metodos y creando un servidor
+server.listen(8080, ()=>{
+    console.log("El server is running" + 8080);
+});
 
