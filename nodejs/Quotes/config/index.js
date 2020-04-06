@@ -2,5 +2,5 @@
 
 module.exports ={
 
-    PORT: process.env.PORT || 4000 //esto es una variable de entorno
+    PORT: process.env.PORT || 8080 //esto es una variable de entorno
 };
