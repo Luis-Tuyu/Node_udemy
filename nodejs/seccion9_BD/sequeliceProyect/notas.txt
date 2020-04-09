@@ -1,0 +1,36 @@
+Resumen del Video
+-npm init -y  <creamos un proyecto>
+
+-Instalamos las dependencias
+	npm i sequelize sequelize-cli sqlite3
+
+<Sequelize es un ORM, sqlite3 es un BD opensource>
+Se agrega la carpeta de node_modules
+
+
+-Inicializar un proyect de sequelize
+	node_modules/.bin/sequelize init 
+
+**Eliminamos el ambiente test y borramos los datos inecesarios
+en config.json
+
+-Creamos un nuevo modelo(tabla)
+node_modules/.bin/sequelize model:generate --name Contact
+ --attributes firstname: string,lastname:string,phone:string,
+email:string
+
+-Realizamos la migración de todos los modelos para agregarlo
+a las tablas
+
+	node_modules/.bin/sequelize db:migrate
+
+-Incluimos un seed para agregar inormacion de manera manual
+	node_modules/.bin/sequelize seed:generate --name seed-contact
+
+-aplicar todos los seed que se encuentran en la carpeta de seeders
+ node_modules/.bin/sequelize db:seed:all
+
+NOTA: se debe agregar los atributo extra en la BD
+
+
+
